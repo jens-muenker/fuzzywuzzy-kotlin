@@ -40,8 +40,8 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-    testImplementation( "org.mockito:mockito-core:+")
-    androidTestImplementation("org.mockito:mockito-android:+")
+    testImplementation("org.mockito:mockito-core:5.5.0")
+    androidTestImplementation("org.mockito:mockito-android:5.5.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.1.0")
 }
 
