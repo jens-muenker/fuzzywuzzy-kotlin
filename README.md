@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/Frosch2010/fuzzywuzzy-kotlin.svg)](https://jitpack.io/#Frosch2010/fuzzywuzzy-kotlin) [![](https://jitpack.io/v/Frosch2010/fuzzywuzzy-kotlin/month.svg)](https://jitpack.io/#Frosch2010/fuzzywuzzy-kotlin)
 # fuzzywuzzy - String matching Library for Android
 
 This repository is a fork of <a href="https://github.com/xdrop/fuzzywuzzy">uCrop'n'Edit</a>. xdrop created this library for java and I translated it to kotlin and made an android library of it. In addition, in the changelogs you can see all other features I added.
