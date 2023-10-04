@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/Frosch2010/fuzzywuzzy-kotlin.svg)](https://jitpack.io/#Frosch2010/fuzzywuzzy-kotlin) [![](https://jitpack.io/v/Frosch2010/fuzzywuzzy-kotlin/month.svg)](https://jitpack.io/#Frosch2010/fuzzywuzzy-kotlin)
 # fuzzywuzzy - String matching Library for Android
 
-This repository is a fork of <a href="https://github.com/xdrop/fuzzywuzzy">uCrop'n'Edit</a>. xdrop created this library for java and I translated it to kotlin and made an android library of it. In addition, in the changelogs you can see all other features I added.
+This repository is a fork of <a href="https://github.com/xdrop/fuzzywuzzy">JavaWuzzy</a>. xdrop created this library for java and I translated it to kotlin and made an android library of it. In addition, in the changelogs you can see all other features I added.
 
 Fuzzy string matching for java based on the [JavaWuzzy](https://github.com/seatgeek/fuzzywuzzy) Python algorithm. The algorithm uses [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) to calculate similarity between strings.
 
