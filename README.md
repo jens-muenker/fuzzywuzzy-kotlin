@@ -120,7 +120,7 @@ If you have any ideas for fuzzywuzzy-kotlin, feel free to let me know. I will tr
 
 For the translation and future work:
 ```
-Copyright 2023, Frosch2010
+Copyright 2023, Jens Münker
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
