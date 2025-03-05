@@ -1,9 +1,12 @@
 [![](https://jitpack.io/v/jens-muenker/fuzzywuzzy-kotlin.svg)](https://jitpack.io/#jens-muenker/fuzzywuzzy-kotlin) [![](https://jitpack.io/v/jens-muenker/fuzzywuzzy-kotlin/month.svg)](https://jitpack.io/#jens-muenker/fuzzywuzzy-kotlin)
-# fuzzywuzzy - String matching Library for Android
+# fuzzywuzzy - String Matching Library for Android
 
-This repository is a fork of <a href="https://github.com/xdrop/fuzzywuzzy">JavaWuzzy</a>. xdrop created this library for java and I translated it to kotlin and made an android library of it. In addition, in the changelogs you can see all other features I added.
-
-Fuzzy string matching for java based on the [JavaWuzzy](https://github.com/seatgeek/fuzzywuzzy) Python algorithm. The algorithm uses [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) to calculate similarity between strings.
+This repository is a fork of [JavaWuzzy](https://github.com/xdrop/fuzzywuzzy).
+[xdrop](https://github.com/xdrop) created [JavaWuzzy](https://github.com/xdrop/fuzzywuzzy)
+as a Java library based on the [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy) Python
+algorithm (now [TheFuzz](https://github.com/seatgeek/thefuzz)). The algorithm uses the
+[Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) to calculate
+similarity between strings.
 
 # Features
 
@@ -11,7 +14,7 @@ Fuzzy string matching for java based on the [JavaWuzzy](https://github.com/seatg
 * Includes implementation of the super-fast [python-Levenshtein](https://github.com/ztane/python-Levenshtein/) in Kotlin!
 * Simple to use!
 * Lightweight!
-* Credits to the great folks at seatgeek for coming up with the algorithm ([More here](http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/))
+* Credits to the great folks at [seatgeek](https://github.com/seatgeek) for coming up with the algorithm ([More here](http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/)) and [xdrop](https://github.com/xdrop) for the Java implementation!
 
 # Installation
 
@@ -28,7 +31,7 @@ Fuzzy string matching for java based on the [JavaWuzzy](https://github.com/seatg
 	...
 	
 	dependencies {
-	        implementation 'com.github.jens-muenker:fuzzywuzzy-kotlin:1.0.0'
+	        implementation 'com.github.jens-muenker:fuzzywuzzy-kotlin:1.0.1'
 	}
     ```
 
@@ -110,17 +113,21 @@ If you have any ideas for fuzzywuzzy-kotlin, feel free to let me know. I will tr
 
 # Changelog
 
-**1.0.0** - Based on <a href="https://github.com/xdrop/fuzzywuzzy">JavaWuzzy</a> 1.4.0:
+**1.0.1**
+- refactored code
+- updated dependencies and gradle
+
+**1.0.0** - Based on [JavaWuzzy](https://github.com/xdrop/fuzzywuzzy) 1.4.0:
 
 - translation to kotlin
-- fixed a bug mentioned in the <a href="https://github.com/xdrop/fuzzywuzzy">JavaWuzzy</a> pull requests (https://github.com/xdrop/fuzzywuzzy/pull/105)
+- fixed a bug mentioned in the [JavaWuzzy](https://github.com/xdrop/fuzzywuzzy) pull requests (https://github.com/xdrop/fuzzywuzzy/pull/105)
 
 
 # License
 
 For the translation and future work:
 ```
-Copyright 2023, Jens Münker
+Copyright 2025, Jens Münker
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -134,7 +141,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-For <a href="https://github.com/xdrop/fuzzywuzzy">JavaWuzzy</a>:
+For [JavaWuzzy](https://github.com/xdrop/fuzzywuzzy):
 ```
                       GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
