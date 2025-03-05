@@ -4,7 +4,7 @@ class ExtractedResult(var string: String, val score: Int, val index: Int) :
     Comparable<ExtractedResult> {
 
     override fun compareTo(o: ExtractedResult): Int {
-        return Integer.compare(score, o.score)
+        return score.compareTo(o.score)
     }
 
     override fun toString(): String {

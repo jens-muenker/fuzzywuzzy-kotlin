@@ -27,8 +27,7 @@ class DefaultStringFunction : ToStringFunction<String> {
         }
 
         private fun compilePattern(): Pattern {
-            val p: Pattern
-            p = try {
+            val p: Pattern = try {
                 Pattern.compile(pattern, Pattern.UNICODE_CHARACTER_CLASS)
             } catch (e: IllegalArgumentException) {
                 // Even though Android supports the unicode pattern class
@@ -45,11 +44,10 @@ class DefaultStringFunction : ToStringFunction<String> {
     /**
      * Performs the default string processing on the input string
      *
-     * @param in Input string
+     * @param item Input string
      * @return The processed string
      */
     override fun apply(item: String): String {
-        if (item == null) return ""
         var `in` = item
         `in` = subNonAlphaNumeric(`in`, " ")
         `in` = `in`.lowercase(Locale.getDefault())

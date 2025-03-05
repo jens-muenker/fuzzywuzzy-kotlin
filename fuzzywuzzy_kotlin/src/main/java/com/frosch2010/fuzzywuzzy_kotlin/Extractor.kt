@@ -102,7 +102,7 @@ class Extractor {
     ): BoundExtractedResult<T> {
         val extracted = extractWithoutOrder(
             query, choices, toStringFunction,
-            func!!
+            func
         )
         return Collections.max(extracted)
     }

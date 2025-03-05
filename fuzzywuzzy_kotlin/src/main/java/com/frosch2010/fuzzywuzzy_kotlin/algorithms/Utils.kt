@@ -1,12 +1,10 @@
 package com.frosch2010.fuzzywuzzy_kotlin.algorithms
 
-import java.util.Arrays
-import java.util.Collections
 import java.util.PriorityQueue
 
 object Utils {
     fun tokenize(`in`: String): List<String> {
-        return Arrays.asList(*`in`.split("\\s+".toRegex()).dropLastWhile { it.isEmpty() }
+        return mutableListOf(*`in`.split("\\s+".toRegex()).dropLastWhile { it.isEmpty() }
             .toTypedArray())
     }
 
@@ -44,7 +42,7 @@ object Utils {
     fun <T : Comparable<T>?> findTopKHeap(arr: List<T>, k: Int): List<T> {
         val pq = PriorityQueue<T>()
         for (x in arr) {
-            if (pq.size < k) pq.add(x) else if (x!!.compareTo(pq.peek()) > 0) {
+            if (pq.size < k) pq.add(x) else if (x!! > pq.peek()) {
                 pq.poll()
                 pq.add(x)
             }
@@ -60,10 +58,10 @@ object Utils {
     }
 
     fun <T : Comparable<T>?> max(vararg elems: T): T? {
-        if (elems.size == 0) return null
+        if (elems.isEmpty()) return null
         var best = elems[0]
         for (t in elems) {
-            if (t!!.compareTo(best) > 0) {
+            if (t!! > best) {
                 best = t
             }
         }

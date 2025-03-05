@@ -41,8 +41,7 @@ class DefaultStringProcessor : StringProcessor() {
         }
 
         private fun compilePattern(): Pattern {
-            val p: Pattern
-            p = try {
+            val p: Pattern = try {
                 Pattern.compile(pattern, Pattern.UNICODE_CHARACTER_CLASS)
             } catch (e: IllegalArgumentException) {
                 // Even though Android supports the unicode pattern class

@@ -8,6 +8,6 @@ class BoundExtractedResult<T>(val referent: T, var string: String, val score: In
     }
 
     override fun compareTo(o: BoundExtractedResult<T>): Int {
-        return Integer.compare(score, o.score)
+        return score.compareTo(o.score)
     }
 }

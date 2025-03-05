@@ -20,7 +20,7 @@ abstract class BasicAlgorithm : Applicable {
 
     override fun apply(s1: String, s2: String): Int {
 
-        return apply(s1, s2, this.stringFunction!!)
+        return apply(s1, s2, this.stringFunction)
 
     }
 
