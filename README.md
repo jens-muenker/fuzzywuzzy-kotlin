@@ -16,6 +16,11 @@ similarity between strings.
 * Lightweight!
 * Credits to the great folks at [seatgeek](https://github.com/seatgeek) for coming up with the algorithm ([More here](http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/)) and [xdrop](https://github.com/xdrop) for the Java implementation!
 
+# Support This Project
+If this library is useful to you or your apps, consider supporting its development:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/jens.muenker)
+
 # Installation
 
 1. Include the library as a local library project in your build.gradle:
